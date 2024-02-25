@@ -1,0 +1,36 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  &__logo {
+    font-weight: 800;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__link {
+    list-style-type: none;
+    & a {
+      color: #0c052a;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}

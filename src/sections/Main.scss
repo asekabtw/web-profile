@@ -24,6 +24,7 @@
 
   &__links {
     display: flex;
+    gap: 1.25rem;
   }
 
   &__link {
@@ -32,6 +33,11 @@
       color: #0c052a;
       font-weight: 600;
       text-decoration: none;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        color: #147efb;
+      }
     }
   }
 

@@ -1,6 +1,36 @@
 import React, { useEffect, useState } from "react";
 import "./Main.scss";
 
+function Main() {
+  return (
+    <div className="main">
+      <Nav />
+      <Hero />
+    </div>
+  );
+}
+
+function Hero() {
+  return (
+    <div className="hero">
+      <div className="hero-text">
+        <h1 className="hero__title">Front-End React Developer</h1>
+        <p className="hero__desc">
+          Hi, I'm Turgunbay Assylzhan. A passionate Front-end React Developer
+          based in Shymkent, Kazakhstan. 📍
+        </p>
+        <span className="hero__links">
+          <a className="hero__link" href=""></a>
+          <a className="hero__link" href=""></a>
+        </span>
+      </div>
+      <div className="hero__img">
+        {/* <img src="../images/picture.jpg" alt="" /> */}
+      </div>
+    </div>
+  );
+}
+
 function Nav() {
   const [height, handleHeight] = useState(false);
 
@@ -37,16 +67,6 @@ function Nav() {
         </ul>
       </div>
     </nav>
-  );
-}
-
-function Main() {
-  return (
-    <div className="main">
-      <div className="main-container">
-        <Nav />
-      </div>
-    </div>
   );
 }
 

@@ -14,8 +14,8 @@ function Main() {
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero-info">
-        <div className="hero-text">
+      <div className="hero__info">
+        <div className="hero__text">
           <h1 className="hero__title">Front-End React Developer</h1>
           <p className="hero__desc">
             Hi, I'm Turgunbay Assylzhan. A passionate Front-end React Developer

@@ -55,16 +55,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  &-info {
+
+  &__info {
     display: flex;
     width: 80%;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto;
+  }
+
+  &__text {
+    width: 50%;
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__desc {
+    width: 90%;
+    font-size: 1.25rem;
   }
 
   &__img {
-    width: 25rem;
+    width: 23rem;
     height: 25rem;
     overflow: hidden;
     border-radius: 1rem;

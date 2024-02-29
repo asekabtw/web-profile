@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Main.scss";
 import Profile from "../images/Profile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faGithub,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Main() {
   return (
@@ -22,8 +29,27 @@ function Hero() {
             based in Shymkent, Kazakhstan. 📍
           </p>
           <span className="hero__links">
-            <a className="hero__link" href=""></a>
-            <a className="hero__link" href=""></a>
+            <a
+              className="hero__link"
+              target="_blank"
+              href="https://github.com/asekabtw"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              className="hero__link"
+              target="_blank"
+              href="https://www.linkedin.com/in/assylzhanturgunbay/"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a
+              className="hero__link"
+              target="_blank"
+              href="https://www.youtube.com/@asyooka/videos"
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
           </span>
         </div>
         <div className="hero__img">

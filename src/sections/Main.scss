@@ -70,12 +70,36 @@
   &__title {
     font-size: 3.5rem;
     line-height: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   &__desc {
     width: 90%;
     font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    transition: 0.25s;
+
+    & svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    &:hover {
+      color: #147efb;
+    }
   }
 
   &__img {

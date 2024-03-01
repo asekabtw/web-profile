@@ -53,18 +53,27 @@
 // HERO
 .hero {
   display: flex;
+
   align-items: center;
   justify-content: center;
 
-  &__info {
-    display: flex;
-    width: 80%;
+  &__container {
+    display: grid;
+
+    width: 70%;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
+    row-gap: 3rem;
+  }
+
+  &__skills {
+    // grid-column: span 3;
   }
 
   &__text {
-    width: 50%;
+    grid-column: span 1;
   }
 
   &__title {

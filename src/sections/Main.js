@@ -21,7 +21,7 @@ function Main() {
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero__info">
+      <div className="hero__container">
         <div className="hero__text">
           <h1 className="hero__title">Front-End React Developer</h1>
           <p className="hero__desc">
@@ -54,6 +54,16 @@ function Hero() {
         </div>
         <div className="hero__img">
           <img src={Profile} alt="" />
+        </div>
+        <div className="hero__skills">
+          <ul>
+            <li>
+              <img
+                src="https://skillicons.dev/icons?i=js,html,css,wasm"
+                alt=""
+              />
+            </li>
+          </ul>
         </div>
       </div>
     </div>

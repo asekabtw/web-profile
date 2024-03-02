@@ -56,12 +56,19 @@ function Hero() {
           <img src={Profile} alt="" />
         </div>
         <div className="hero__skills">
+          <p>Tech Stack</p>
           <ul>
             <li>
-              <img
-                src="https://skillicons.dev/icons?i=js,html,css,wasm"
-                alt=""
-              />
+              <img src="https://skillicons.dev/icons?i=html" alt="" />
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=css" alt="" />
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=javascript" alt="" />
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=react" alt="" />
             </li>
           </ul>
         </div>

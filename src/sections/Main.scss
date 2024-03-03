@@ -71,10 +71,23 @@
   &__skills {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 
     & p {
       font-size: 1.25rem;
+      font-weight: 500;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: -1rem;
+        width: 2px;
+        height: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #000;
+      }
     }
 
     & ul {
